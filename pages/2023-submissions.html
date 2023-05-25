@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
+        
+        <title>2023 Submissions</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="/index.html" class="home">PIXIFY</a></h1>
+            <nav>
+                <a href="/pages/2023-submissions.html">2023 Submissions</a>
+                <a href="/pages/about.html" class="about">About</a>
+                <button type="button" class="dark-btn" onclick="darkMode()">Dark Mode</button>
+            </nav>
+        </header>
+        <div class="main" id="dark">
+            <div class="submissionsSection">
+                <h2>2023 Submissions</h2>
+                <div id="submissions-container"></div>
+            </div>
+            <form>
+                <label for="">SUBMIT YOUR WORK</label>
+                <input type="text" name="name" id="name" placeholder="Your Name">
+                <input type="text" name="title" id="title" placeholder="Title of Your Entry">
+                <input type="url" name="url1" id="url1" placeholder="Image Url One">
+                <input type="url" name="url2" id="url2" placeholder="Image Url Two">
+                <input type="url" name="url3" id="url3" placeholder="Image Url Three">
+                <input type="url" name="url4" id="url4" placeholder="Image Url Four">
+                <input type="url" name="url5" id="url5" placeholder="Image Url Five">
+                <button type="submit" id="submit-btn">SUBMIT</button>
+            </form>
+        </div>    
+        <script src="/js/script.js"></script>
+    </body>
+</html>
